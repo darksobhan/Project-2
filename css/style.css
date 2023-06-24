@@ -1,0 +1,248 @@
+/* font  */
+@font-face {
+    font-family: Coda-ExtraBold;
+    src:url(../fonts/Coda-Regular.ttf);
+}
+
+*{
+    font-family: 'roboot';
+}
+h1,h2,h3,h4,h5{
+    font-family: Coda-Regular ;
+}
+
+/* body  */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 10%;
+}
+
+/* top bar  */
+#topbar{
+    background-color: rgb(69, 69, 69);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: white;
+}
+#social-icon{
+    float: right;
+    display: flex;
+    justify-content: none;
+}
+
+
+/* logo bar  */
+#logobar img{
+    margin: 25px 0px;
+}
+
+
+/* nav bsr  */
+#navbar{
+    background-color: rgb(251, 150, 0);
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 20px 0px;
+    padding-right: 35px;
+}
+
+#navbar ul{
+    /* margin: 0; */
+    padding: 0;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* poster  */
+#poster{
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* why us  */
+#whysection{
+    overflow: auto;
+    padding-bottom: 30px;
+}
+.red-heading{
+    color:rgb(251, 150, 0) ;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px ;
+    box-sizing: border-box;
+}
+
+.section33 h2{
+    color: rgb(251, 150, 0);
+    font-size: 18px;
+}
+.section33 p{
+    color: rgb(118, 118, 118);
+}
+
+/* contact section  */
+
+#contact-cabtainer{
+    background-color: rgb(251, 150, 0);
+    color: white;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#contact-btn{
+    background-color: white;
+    color:  rgb(251, 150, 0);
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* blog  */
+
+.section33 a{
+    color:rgb(251, 150, 0 );
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+
+/* subcribe section  */
+
+#subcribe-section{
+    background-color:rgb(251, 150, 0 ) ;
+    color: white;
+    overflow: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section50 form{
+    padding: 25px;
+}
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color:rgb(251, 150, 0 ) ;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+.section50 input[type="submit"]{
+   padding: 8px 35px;
+   font-size: 15px;
+   color:rgb(0, 0, 0) ;
+   /* background-color: white; */
+   border: 0px;
+}
+
+
+
+/* footer */
+
+#imp-link{
+    background-color: rgb(69, 69, 69);
+    color: white;
+    overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+#footer-menu{
+    list-style-type: none;
+    padding: 0;
+}
+#footer-menu li{
+    padding: 5px;
+}
+#footer-menu li a{
+    text-decoration: none;
+    color: white;
+}
+#footer-menu li a:hover{
+    color: rgb(251, 150, 0);
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+
+/* copyright  */
+
+#copyright{
+    background-color: rgb(28, 28, 28);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+}
+
+
+
+/* rensposive ipad  */
+
+@media only screen and (max-width:375px){
+    
+}
